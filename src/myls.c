@@ -1,7 +1,9 @@
 #include "apue.h"
 #include <dirent.h>
 
-
+/*
+	myls is like a simple ls, can only print folder's name
+*/
 int main(int argc, char *argv[])
 {
 	DIR	*dp;
